@@ -11,12 +11,13 @@ import {
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer-logo">
-        <img src={Logo} width="100%" height="100%" />
-        <p>DentiGo</p>
-      </div>
       <div className="footer-container">
         <div className="col-lg-4">
+          <div className="footer-logo">
+            <img src={Logo} width="100%" height="100%" />
+
+            <p>DentiGo</p>
+          </div>
           <div className="footer-subscribe">
             <p>Subscribe to our Newsletter</p>
           </div>

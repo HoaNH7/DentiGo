@@ -17,10 +17,10 @@ const Header = () => {
       <div className="menu-nav-header">
         <ul>
           <li>
-            <Link to="">Home</Link>
+            <Link to="/DentiGo">Home</Link>
           </li>
           <li>
-            <Link to="">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
             <Link to="">Services</Link>

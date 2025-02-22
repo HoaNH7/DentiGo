@@ -3,34 +3,33 @@
 .footer {
     border-top: 2px solid #eeecec;
 
-    .footer-logo {
-        display: flex;
-        margin-left: 120px;
-        margin-right: 120px;
-
-        img {
-            width: 100px;
-            height: 50px;
-        }
-
-        p {
-            font-size: 32px;
-            font-weight: 600;
-            color: #0067FF;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-    }
     .footer-container {
         margin-left: 120px;
         margin-right: 120px;
+        margin-top: 80px;
         display: flex;
         justify-content: space-between;
         gap: 20px;
-
+        
+        .footer-logo {
+            display: flex;
+    
+            img {
+                width: 100px;
+                height: 50px;
+            }
+    
+            p {
+                font-size: 32px;
+                font-weight: 600;
+                color: #0067FF;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+        }
         .footer-subscribe {
             margin-top: 30px;
             display: inline-block;
