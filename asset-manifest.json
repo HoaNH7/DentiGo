@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/DentiGo/static/css/main.371ca6f2.css",
-    "main.js": "/DentiGo/static/js/main.857b1b90.js",
+    "main.css": "/DentiGo/static/css/main.bbeda2e4.css",
+    "main.js": "/DentiGo/static/js/main.1621a4e7.js",
     "static/js/453.c57b4cd1.chunk.js": "/DentiGo/static/js/453.c57b4cd1.chunk.js",
+    "static/media/img-slider.jpg": "/DentiGo/static/media/img-slider.2cf1d68c1458922bcf7e.jpg",
     "static/media/logo.png": "/DentiGo/static/media/logo.e323aec1a4727bf763fc.png",
     "static/media/inter-latin-ext-400-normal.woff": "/DentiGo/static/media/inter-latin-ext-400-normal.1c20f7dc20d731a18fcd.woff",
     "static/media/inter-latin-400-normal.woff": "/DentiGo/static/media/inter-latin-400-normal.b0c8fe9db56dd415a25a.woff",
@@ -19,12 +20,12 @@
     "static/media/inter-greek-ext-400-normal.woff2": "/DentiGo/static/media/inter-greek-ext-400-normal.f2fa0d9ef98f59d4a75b.woff2",
     "static/media/inter-vietnamese-400-normal.woff2": "/DentiGo/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "index.html": "/DentiGo/index.html",
-    "main.371ca6f2.css.map": "/DentiGo/static/css/main.371ca6f2.css.map",
-    "main.857b1b90.js.map": "/DentiGo/static/js/main.857b1b90.js.map",
+    "main.bbeda2e4.css.map": "/DentiGo/static/css/main.bbeda2e4.css.map",
+    "main.1621a4e7.js.map": "/DentiGo/static/js/main.1621a4e7.js.map",
     "453.c57b4cd1.chunk.js.map": "/DentiGo/static/js/453.c57b4cd1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.371ca6f2.css",
-    "static/js/main.857b1b90.js"
+    "static/css/main.bbeda2e4.css",
+    "static/js/main.1621a4e7.js"
   ]
 }
