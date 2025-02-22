@@ -18,6 +18,7 @@
     "react-router-dom": "^7.2.0",
     "react-scripts": "5.0.1",
     "sass": "^1.85.0",
+    "swiper": "^11.2.4",
     "web-vitals": "^2.1.4"
   },
   "homepage": "https://HoaNH7.github.io/DentiGo",
@@ -27,7 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

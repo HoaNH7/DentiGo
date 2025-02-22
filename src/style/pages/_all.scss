@@ -58,3 +58,24 @@ body {
     height: 60px;
     border-radius: 15px;
 }
+
+.contact-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-input {
+  width: 80%;
+  border: 1px solid #eeecec;
+  border-radius: 12px;
+  outline: none;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.contact-form1 {
+  display: flex;
+  margin-bottom: 30px;
+
+}
