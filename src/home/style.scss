@@ -1,0 +1,150 @@
+@import "../style/pages/all";
+
+.container {
+    overflow: hidden;
+
+    .home-slider {
+        display: flex;
+        margin-bottom: 200px;
+        position: relative;
+
+        .home-slider-text {
+            margin-left: 120px;
+            margin-top: 120px;
+
+            h1 {
+                font-size: 60px;
+                margin-right: 30px;
+                margin-bottom: 20px ;
+            }
+
+            p {
+                font-size: 16px;
+                color: #93939A;
+                margin-bottom: 20px;
+            }
+
+            .home-btn-book {
+                width: 25%;
+                height: 60px;
+                color: white;
+                background-color: #0067FF;
+                border-radius: 12px;
+                margin-right: 30px;
+                border: none;
+                cursor: pointer;
+                font-weight: 600;
+                font-size: 16px;
+            }
+
+            .home-btn-browse {
+                width: 20%;
+                height: 60px;
+                color: #0067FF;
+                border-radius: 12px;
+                border: none;
+                cursor: pointer;
+                box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+                font-size: 16px;
+            }
+        }
+        .home-slider-img {
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+
+        .home-slider-booking {
+            width: 80%;
+            height: 150px;
+            position: absolute;
+            bottom: -15%;
+            display: flex;
+            left: 50%;
+            text-align: center;
+            transform: translate(-50%);
+            border-radius: 12px;
+            background-color: white;
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            
+            .home-booking-contact {
+                display: flex;
+                text-align: left;
+                border-right: 2px solid #eeecec;
+
+                svg {
+                    margin-left: 10px;
+                }
+
+                h4 {
+                    font-size: 24px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    color: #93939A;
+                    font-weight: normal;
+                    margin-bottom: 15px;
+                }
+
+                a {
+                    text-decoration: none;
+                    font-weight: 600;
+                    color: #0067FF;
+                }
+            }
+
+            .home-booking-open {
+                display: flex;
+                text-align: left;
+                border-right: 2px solid #eeecec;
+
+                svg {
+                    margin-left: 10px;
+                }
+    
+                h4 {
+                    font-size: 24px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+    
+                p {
+                    color: #0067FF;
+                    font-weight: 600;
+                    margin-bottom: 15px;
+    
+                    span {
+                        color: #93939A;
+                        font-weight: normal;
+                    }
+                }
+            }
+
+            .home-booking-services {
+                display: flex;
+                text-align: left;
+
+                svg {
+                    margin-left: 10px;
+                }
+
+                h4 {
+                    font-size: 24px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    color: #93939A;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}
