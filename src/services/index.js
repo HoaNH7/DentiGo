@@ -77,6 +77,15 @@ const Services = () => {
           ))}
         </div>
       </div>
+      <div className="services-schedule">
+        <div className="col-lg-6">
+          <div className="schedule-text">
+            <h1>Schedule a virtual or presential Appointment today</h1>
+            <input type="submit" value="Book an Appointment" />
+          </div>
+        </div>
+        <div className="col-lg-6 img-schedule"></div>
+      </div>
     </div>
   );
 };
