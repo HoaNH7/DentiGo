@@ -76,7 +76,7 @@ const Home = () => {
   return (
     <div className="container">
       <div className="home-slider">
-        <div className="col-6 home-slider-text">
+        <div className=" home-slider-text" style={{ width: "50%" }}>
           <h1>Transforming Smiles with Expert Dental Care</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit velit,
@@ -93,7 +93,7 @@ const Home = () => {
             value="Browse Services"
           />
         </div>
-        <div className="col-6 home-slider-img">
+        <div className=" home-slider-img" style={{ width: "50%" }}>
           <img src={ImgSlider} />
         </div>
         <div className="home-slider-booking">
@@ -267,7 +267,7 @@ const Home = () => {
           </p>
         </div>
         <div className="resources-img">
-          <div className="col-lg-4 resources-list">
+          <div className=" resources-list">
             <img src={ImgSlider} />
             <div className="resources-text">
               <h3>4 things to consider before getting teeth braces</h3>
@@ -283,7 +283,7 @@ const Home = () => {
               <span>Read More</span>
             </div>
           </div>
-          <div className="col-lg-4 resources-list">
+          <div className=" resources-list">
             <img src={ImgSlider} />
             <div className="resources-text">
               <h3>How often should I replace my toothbrush</h3>
@@ -299,7 +299,7 @@ const Home = () => {
               <span>Read More</span>
             </div>
           </div>
-          <div className="col-lg-4 resources-list">
+          <div className=" resources-list">
             <img src={ImgSlider} />
             <div className="resources-text">
               <h3>6 great tips to keep your teeth healthy and safe</h3>

@@ -1,11 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Logo from "../../image/logo.png";
 import "./style.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
+  const location = useLocation();
+
   return (
     <div className="header">
       <div className="header-logo">
@@ -16,26 +18,26 @@ const Header = () => {
       </div>
       <div className="menu-nav-header">
         <ul>
-          <li>
+          <li className={location.pathname === "/DentiGo" ? "active" : ""}>
             <Link to="/DentiGo">Home</Link>
           </li>
-          <li>
+          <li className={location.pathname === "/about" ? "active" : ""}>
             <Link to="/about">About</Link>
           </li>
-          <li>
-            <Link to="">Services</Link>
+          <li className={location.pathname === "/services" ? "active" : ""}>
+            <Link to="/services">Services</Link>
           </li>
-          <li>
-            <Link to="">Team</Link>
+          <li className={location.pathname === "/team" ? "active" : ""}>
+            <Link to="/team">Team</Link>
           </li>
-          <li>
-            <Link to="">Pricing</Link>
+          <li className={location.pathname === "/pricing" ? "active" : ""}>
+            <Link to="/pricing">Pricing</Link>
           </li>
-          <li>
-            <Link to="">Blog</Link>
+          <li className={location.pathname === "/blog" ? "active" : ""}>
+            <Link to="/blog">Blog</Link>
           </li>
-          <li>
-            <Link to="">Contact Us</Link>
+          <li className={location.pathname === "/contact" ? "active" : ""}>
+            <Link to="/contact">Contact Us</Link>
           </li>
         </ul>
       </div>

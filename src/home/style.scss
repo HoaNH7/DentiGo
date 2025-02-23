@@ -1,6 +1,7 @@
 @import "../style/pages/all";
 
 .container {
+    padding-top: 114px;
     overflow: hidden;
 
     .home-slider {
@@ -453,6 +454,7 @@
             margin: 0 200px;
 
             .resources-list {
+                width: 33.333333%;
                 border-radius: 20px;
                 border: 1px solid #eeecec;
                 margin-right: 30px;
