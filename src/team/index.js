@@ -30,7 +30,7 @@ const Team = () => {
             />
           </div>
           <div className="grid-image">
-            <div className="team-grid-image1"></div>
+            <div className="team-grid-image2"></div>
             <h4>Clark Howell</h4>
             <p>Dentist at Global Dentistry</p>
             <FontAwesomeIcon
@@ -45,7 +45,7 @@ const Team = () => {
             />
           </div>
           <div className="grid-image">
-            <div className="team-grid-image1"></div>
+            <div className="team-grid-image3"></div>
             <h4>Kate Fuller</h4>
             <p>Dentist at Global Dentistry</p>
             <FontAwesomeIcon
@@ -60,7 +60,7 @@ const Team = () => {
             />
           </div>
           <div className="grid-image">
-            <div className="team-grid-image1"></div>
+            <div className="team-grid-image4"></div>
             <h4>Arthur Wade</h4>
             <p>Dentist at Global Dentistry</p>
             <FontAwesomeIcon
@@ -73,6 +73,11 @@ const Team = () => {
               icon={faPhone}
               size="1x"
             />
+          </div>
+        </div>
+        <div className="team-circle">
+          <div className="big-circle">
+            <div className="small-circle"></div>
           </div>
         </div>
       </div>

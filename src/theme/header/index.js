@@ -10,13 +10,13 @@ const Header = () => {
 
   return (
     <div className="header">
-      <div className="header-logo">
-        <img src={Logo} width="100%" height="100%" />
-      </div>
-      <div className="header-title">
-        <h1 style={{ margin: 0 }}>DentiGo</h1>
-      </div>
       <div className="menu-nav-header">
+        {/* <div className="header-logo">
+        </div> */}
+        <div className="header-title">
+          <p>DentiGo</p>
+        </div>
+
         <ul>
           <li className={location.pathname === "/DentiGo" ? "active" : ""}>
             <Link to="/DentiGo">Home</Link>
@@ -41,12 +41,14 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div className="header-contact">
-        <FontAwesomeIcon icon={faPhone} size="2x" color="#0067FF" />
-        <p>(+84)345-6789</p>
-      </div>
-      <div className="header-btn">
-        <Link to="">Book Now</Link>
+      <div className="header-right">
+        <div className="header-contact">
+          <FontAwesomeIcon icon={faPhone} size="2x" color="#5D4FFF" />
+          <p>(+84)345-6789</p>
+        </div>
+        <div className="header-btn">
+          <Link to="/pricing">Book Now</Link>
+        </div>
       </div>
     </div>
   );

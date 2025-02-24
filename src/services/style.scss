@@ -2,8 +2,7 @@
 
 .container {
     .services-content {
-        margin: 0 120px;
-        margin-bottom: 200px;
+        margin: 200px 120px;
 
         .services-content-title {
             h1 {
@@ -16,22 +15,28 @@
                 justify-content: space-between;
 
                 p {
-                    color: #93939A;
+                    color: #807E98;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                 }
 
                 input {
-                    margin-right: 275px;
                     width: 250px;
                     height: 60px;
                     color: white;
-                    background-color: #0067FF;
+                    background-color: #5D4FFF;
                     font-weight: bold;
                     font-size: 16px;
                     border: none;
                     border-radius: 12px;
+                    cursor: pointer;
+                    transition: transform 0.3s ease-in-out;
+
+                    &:hover {
+                        transform: translate3d(0, -4px, .01px);
+                        box-shadow: 0 4px 15px #4a3aff99;
+                    }
                 }
             }
         }
@@ -50,12 +55,11 @@
                     justify-content: center;
                     align-items: center;
                     text-align: center;
-                    height: 200px;
+                    height: 300px;
                     width: 100%;
                     background-color: #d4d4e4;
                     border-top-left-radius: 12px;
                     border-top-right-radius: 12px;
-                    border: 1px solid #d4d4e4;
                     margin-bottom: 30px;
 
 
@@ -75,12 +79,12 @@
                     }
 
                     p {
-                        color: #93939A;
+                        color: #807E98;
                         margin-bottom: 20px;
                     }
 
                     h4 {
-                        color: #0067FF;
+                        color: #5D4FFF;
                         margin-bottom: 50px;
                     }
                 }
@@ -90,7 +94,7 @@
 
     .services-schedule {
         display: flex;
-        background-color: #0067FF;
+        background-color: #5D4FFF;
         border-radius: 40px;
         margin: 0 120px;
         margin-bottom: 150px;
@@ -111,9 +115,16 @@
                 height: 70px;
                 border: none;
                 border-radius: 12px;
-                color: #0067FF;
+                color: #5D4FFF;
                 font-size: 16px;
                 font-weight: 600;
+                cursor: pointer;
+                transition: transform 0.3s ease-in-out;
+
+                &:hover {
+                    transform: translate3d(0, -4px, .01px);
+                    box-shadow: 0 5px 17px #373088c7;
+                }
             }
         }
 

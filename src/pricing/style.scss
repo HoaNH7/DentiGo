@@ -1,0 +1,30 @@
+@import "../style/pages/all";
+
+.container {
+
+    .pricing-all {
+        padding-top: 200px;
+        .pricing-text {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+
+            p {
+                font-size: 56px;
+                font-weight: 600;
+                margin-bottom: 20px;
+
+                span {
+                    color: #5D4FFF;
+                }
+            }
+
+            h5 {
+                color: #807E98;
+                font-size: 16px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}

@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="col-lg-4">
           <div className="footer-logo">
-            <img src={Logo} width="100%" height="100%" />
+            {/* <img src={Logo} width="100%" height="100%" /> */}
 
             <p>DentiGo</p>
           </div>
@@ -74,7 +74,7 @@ const Footer = () => {
               <FontAwesomeIcon
                 icon={faEnvelope}
                 style={{ marginRight: 10 }}
-                color="#0067FF"
+                color="#5D4FFF"
               />
               hoanh472001@gmail.com
             </li>
@@ -82,7 +82,7 @@ const Footer = () => {
               <FontAwesomeIcon
                 icon={faPhone}
                 style={{ marginRight: 10 }}
-                color="#0067FF"
+                color="#5D4FFF"
               />
               (+84)345-6789
             </li>
@@ -90,7 +90,7 @@ const Footer = () => {
               <FontAwesomeIcon
                 icon={faLocationDot}
                 style={{ marginRight: 10 }}
-                color="#0067FF"
+                color="#5D4FFF"
               />
               P. Tay Tuu, Q. Bac Tu Liem, Ha Noi
             </li>

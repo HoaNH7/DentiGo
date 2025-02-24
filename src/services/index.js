@@ -2,46 +2,52 @@ import React from "react";
 import "./style.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTooth } from "@fortawesome/free-solid-svg-icons";
+import Comsmetic from "../image/cosmetic.jpg";
+import Orthodontics from "../image/orthodontics.jpg";
+import Hygiene from "../image/hygiene.jpg";
+import Treatment from "../image/treatment.jpg";
+import Surgery from "../image/surgery.jpg";
+import Implants from "../image/implants.jpg";
 
 const Services = () => {
   const Grid = [
     {
-      icon: faTooth,
+      img: Comsmetic,
       title: "Cosmetic Dentistry",
       description:
         "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit",
       another: "Learn More",
     },
     {
-      icon: faTooth,
+      img: Orthodontics,
       title: "Orthodontics",
       description:
         "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit",
       another: "Learn More",
     },
     {
-      icon: faTooth,
+      img: Hygiene,
       title: "Oral Hygiene",
       description:
         "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit",
       another: "Learn More",
     },
     {
-      icon: faTooth,
+      img: Treatment,
       title: "Dental Treatment",
       description:
         "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit",
       another: "Learn More",
     },
     {
-      icon: faTooth,
+      img: Surgery,
       title: "Dental Surgery",
       description:
         "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit",
       another: "Learn More",
     },
     {
-      icon: faTooth,
+      img: Implants,
       title: "Dental Implants",
       description:
         "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit",
@@ -65,9 +71,7 @@ const Services = () => {
         <div className="services-content-grid">
           {Grid.map((g, key) => (
             <div className="grid-item" key={key}>
-              <span className="item-icon">
-                <FontAwesomeIcon icon={g.icon} />
-              </span>
+              <img src={g.img} className="item-icon" />
               <div className="grid-text">
                 <h3>{g.title}</h3>
                 <p>{g.description}</p>

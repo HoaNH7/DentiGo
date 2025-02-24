@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.scss";
-import ImgSlider from "../image/img-slider.jpg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faClock,
@@ -13,61 +12,92 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
+import ImgSlider from "../image/img-slider.jpg";
+import Cosmetic from "../image/cosmetic.jpg";
+import Orthodontics from "../image/orthodontics.jpg";
+import Hygiene from "../image/hygiene.jpg";
+import Treatment from "../image/treatment.jpg";
+import Surgery from "../image/surgery.jpg";
+import Implants from "../image/implants.jpg";
+import Avatar from "../image/avatar.jpg";
+import Doctor1 from "../image/doctor1.jpg";
+import Doctor2 from "../image/doctor2.jpg";
+import Doctor3 from "../image/doctor3.jpg";
+import Doctor4 from "../image/doctor4.jpg";
+import Artical1 from "../image/artical1.jpg";
+import Artical2 from "../image/artical2.jpg";
+import Artical3 from "../image/artical3.jpg";
 
 const Home = () => {
+  const navigate = useNavigate();
+
   const services = [
     {
       title: "Cosmetic Dentistry",
       description:
         "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
-      img: ImgSlider,
+      img: Cosmetic,
       Learn: "Learn More",
     },
     {
       title: "Orthodontics",
       description:
         "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
-      img: ImgSlider,
+      img: Orthodontics,
       Learn: "Learn More",
     },
     {
       title: "Oral Hygiene",
       description:
         "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
-      img: ImgSlider,
+      img: Hygiene,
       Learn: "Learn More",
     },
     {
-      title: "Oral Hygiene",
+      title: "Dental Treatment",
       description:
         "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
-      img: ImgSlider,
+      img: Treatment,
+      Learn: "Learn More",
+    },
+    {
+      title: "Dental Surgery",
+      description:
+        "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
+      img: Surgery,
+      Learn: "Learn More",
+    },
+    {
+      title: "Dental Implants",
+      description:
+        "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
+      img: Implants,
       Learn: "Learn More",
     },
   ];
 
   const preview = [
     {
-      img: ImgSlider,
-      title: "NH Hoa",
+      img: Doctor1,
+      title: "William Saliba",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus massa felis in sedeol commodo. Augue morbi molestie",
     },
     {
-      img: ImgSlider,
-      title: "NH Hoa",
+      img: Doctor2,
+      title: "Sergio Mestre",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus massa felis in sedeol commodo. Augue morbi molestie",
     },
     {
-      img: ImgSlider,
-      title: "NH Hoa",
+      img: Doctor3,
+      title: "Lucas Papaw",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus massa felis in sedeol commodo. Augue morbi molestie",
     },
     {
-      img: ImgSlider,
-      title: "NH Hoa",
+      img: Doctor4,
+      title: "James Gunn",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus massa felis in sedeol commodo. Augue morbi molestie",
     },
@@ -86,11 +116,13 @@ const Home = () => {
             type="submit"
             className="home-btn-book"
             value="Book an Appointment"
+            onClick={() => navigate("/pricing")}
           />
           <input
             type="submit"
             className="home-btn-browse"
             value="Browse Services"
+            onClick={() => navigate("/services")}
           />
         </div>
         <div className=" home-slider-img" style={{ width: "50%" }}>
@@ -109,7 +141,22 @@ const Home = () => {
               <h4>Contact Us</h4>
               <p>(+84)345-6789</p>
               <p>hoanh472001@gmail.com</p>
-              <Link to="#">Book an Appointment</Link>
+              <Link to="/pricing">Book an Appointment</Link>
+            </div>
+          </div>
+          <div className="col-lg-4 home-booking-services">
+            <div className="col-lg-3 font-awesome">
+              <FontAwesomeIcon
+                icon={faTooth}
+                style={{ marginRight: 10 }}
+                size="2x"
+              />
+            </div>
+            <div className="col-lg-9 services-text">
+              <h4>Services</h4>
+              <p>Cosmetic Dentist</p>
+              <p>Dental Implants</p>
+              <p>Teeth Whitening</p>
             </div>
           </div>
           <div className="col-lg-4 home-booking-open">
@@ -133,21 +180,6 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 home-booking-services">
-            <div className="col-lg-3 font-awesome">
-              <FontAwesomeIcon
-                icon={faTooth}
-                style={{ marginRight: 10 }}
-                size="2x"
-              />
-            </div>
-            <div className="col-lg-9">
-              <h4>Services</h4>
-              <p>Cosmetic Dentist</p>
-              <p>Dental Implants</p>
-              <p>Teeth Whitening</p>
-            </div>
-          </div>
         </div>
       </div>
       <div className="home-services">
@@ -160,12 +192,13 @@ const Home = () => {
             className="btn-services"
             type="submit"
             value="Book an Appointment"
+            onClick={() => navigate("/pricing")}
           />
         </div>
         <div className="home-swiper-slider">
           <Swiper
             modules={[Navigation]}
-            // spaceBetween={30}
+            spaceBetween={30}
             slidesPerView={3}
             navigation
           >
@@ -200,13 +233,18 @@ const Home = () => {
             enim, magna tortor. Sed vivamus porttitor tempus
           </p>
           <div className="home-about-avatar">
-            <img src={ImgSlider} width={50} height={50} />
-            <div>
+            <img src={Avatar} width={70} height={60} />
+            <div className="avatar-text">
               <p>Dr. Huu Hoa</p>
               <h4>Dentist at Global Dentistry</h4>
             </div>
           </div>
-          <input type="submit" className="btn-about" value="About our Clinic" />
+          <input
+            type="submit"
+            className="btn-about"
+            value="About our Clinic"
+            onClick={() => navigate("/about")}
+          />
         </div>
       </div>
       <div className="home-preview">
@@ -245,6 +283,7 @@ const Home = () => {
             type="submit"
             className="btn-preview"
             value="Book an Appointment"
+            onClick={() => navigate("/pricing")}
           />
         </div>
       </div>
@@ -252,13 +291,17 @@ const Home = () => {
         <div className="col-lg-6">
           <div className="schedule-text">
             <h1>Schedule a virtual or presential Appointment today</h1>
-            <input type="submit" value="Book an Appointment" />
+            <input
+              type="submit"
+              value="Book an Appointment"
+              onClick={() => navigate("/pricing")}
+            />
           </div>
         </div>
         <div className="col-lg-6 img-schedule"></div>
       </div>
       <div className="home-resources">
-        <div className="resources-text">
+        <div className="resources-title">
           <h1>Our articles on dental health</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
@@ -268,7 +311,7 @@ const Home = () => {
         </div>
         <div className="resources-img">
           <div className=" resources-list">
-            <img src={ImgSlider} />
+            <img src={Artical1} />
             <div className="resources-text">
               <h3>4 things to consider before getting teeth braces</h3>
               <p>
@@ -284,7 +327,7 @@ const Home = () => {
             </div>
           </div>
           <div className=" resources-list">
-            <img src={ImgSlider} />
+            <img src={Artical2} />
             <div className="resources-text">
               <h3>How often should I replace my toothbrush</h3>
               <p>
@@ -300,7 +343,7 @@ const Home = () => {
             </div>
           </div>
           <div className=" resources-list">
-            <img src={ImgSlider} />
+            <img src={Artical3} />
             <div className="resources-text">
               <h3>6 great tips to keep your teeth healthy and safe</h3>
               <p>
