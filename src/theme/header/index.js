@@ -33,9 +33,9 @@ const Header = () => {
           <li className={location.pathname === "/pricing" ? "active" : ""}>
             <Link to="/pricing">Pricing</Link>
           </li>
-          <li className={location.pathname === "/blog" ? "active" : ""}>
+          {/* <li className={location.pathname === "/blog" ? "active" : ""}>
             <Link to="/blog">Blog</Link>
-          </li>
+          </li> */}
           <li className={location.pathname === "/contact" ? "active" : ""}>
             <Link to="/contact">Contact Us</Link>
           </li>

@@ -125,7 +125,7 @@ const Home = () => {
             onClick={() => navigate("/services")}
           />
         </div>
-        <div className=" home-slider-img" style={{ width: "50%" }}>
+        <div className=" home-slider-img" style={{ width: "65%" }}>
           <img src={ImgSlider} />
         </div>
         <div className="home-slider-booking">
