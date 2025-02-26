@@ -9,9 +9,8 @@ const Team = () => {
       <div className="our-team">
         <h1>Meet our team</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien{" "}
-          <br />
-          habitant integer senectus malesuada ac.
+          We are a team of dedicated dental professionals committed to providing
+          <br /> exceptional care and ensuring healthy smiles.
         </p>
         <div className="our-team-grid">
           <div className="grid-image">

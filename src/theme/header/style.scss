@@ -60,14 +60,13 @@
                     &:hover {
                         color: #5D4FFF;
                     }
-
                 }
                 
                 &::after {
                     content: "";
                     position: absolute;
                     left: 0;
-                    bottom: -5px;
+                    bottom: -46px;
                     width: 0;
                     height: 3px;
                     background-color: #5D4FFF;
@@ -77,11 +76,11 @@
                 &:hover::after {
                     width: 100%;
                 }
-
+                
                 &.active::after {
                     width: 100%;
                 }
-
+                
                 &.active a {
                     color: #5D4FFF;
                     font-weight: bold;

@@ -20,10 +20,10 @@ import Treatment from "../image/treatment.jpg";
 import Surgery from "../image/surgery.jpg";
 import Implants from "../image/implants.jpg";
 import Avatar from "../image/avatar.jpg";
-import Doctor1 from "../image/doctor1.jpg";
-import Doctor2 from "../image/doctor2.jpg";
-import Doctor3 from "../image/doctor3.jpg";
-import Doctor4 from "../image/doctor4.jpg";
+import Customer1 from "../image/customer1.jpg";
+import Customer2 from "../image/customer2.jpg";
+import Customer3 from "../image/customer3.jpg";
+import Customer4 from "../image/customer4.jpg";
 import Artical1 from "../image/artical1.jpg";
 import Artical2 from "../image/artical2.jpg";
 import Artical3 from "../image/artical3.jpg";
@@ -35,42 +35,42 @@ const Home = () => {
     {
       title: "Cosmetic Dentistry",
       description:
-        "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
+        "Enhance your smile with our advanced cosmetic dentistry services, including teeth whitening, veneers, and smile makeovers.",
       img: Cosmetic,
       Learn: "Learn More",
     },
     {
       title: "Orthodontics",
       description:
-        "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
+        "Achieve a perfectly aligned smile with our expert orthodontic treatments, including braces and clear aligners tailored to your needs.",
       img: Orthodontics,
       Learn: "Learn More",
     },
     {
       title: "Oral Hygiene",
       description:
-        "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
+        "Maintain optimal oral health with professional cleanings, preventive care, and personalized hygiene plans from our experienced dental team.",
       img: Hygiene,
       Learn: "Learn More",
     },
     {
       title: "Dental Treatment",
       description:
-        "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
+        "Comprehensive dental care for all ages, including fillings, extractions, and restorative treatments to keep your smile healthy and pain-free.",
       img: Treatment,
       Learn: "Learn More",
     },
     {
       title: "Dental Surgery",
       description:
-        "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
+        "Professional dental surgery care to ensure a healthy and confident smile.",
       img: Surgery,
       Learn: "Learn More",
     },
     {
       title: "Dental Implants",
       description:
-        "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
+        "Modern implant solutions for strong and natural-looking teeth.",
       img: Implants,
       Learn: "Learn More",
     },
@@ -78,28 +78,28 @@ const Home = () => {
 
   const preview = [
     {
-      img: Doctor1,
+      img: Customer1,
       title: "William Saliba",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus massa felis in sedeol commodo. Augue morbi molestie",
+        "I had an amazing experience at DentiGo! The staff was friendly, and my treatment was painless. Highly recommended!",
     },
     {
-      img: Doctor2,
+      img: Customer2,
       title: "Sergio Mestre",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus massa felis in sedeol commodo. Augue morbi molestie",
+        "The best dental care I’ve ever received. The team made me feel comfortable, and the results exceeded my expectations!",
     },
     {
-      img: Doctor3,
+      img: Customer3,
       title: "Lucas Papaw",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus massa felis in sedeol commodo. Augue morbi molestie",
+        "Professional, caring, and efficient. I finally found a dentist I can trust. Thank you, DentiGo!",
     },
     {
-      img: Doctor4,
+      img: Customer4,
       title: "James Gunn",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus massa felis in sedeol commodo. Augue morbi molestie",
+        "The best dental care I've ever received! My teeth feel amazing, and the team was super friendly.",
     },
   ];
 
@@ -109,8 +109,9 @@ const Home = () => {
         <div className=" home-slider-text" style={{ width: "50%" }}>
           <h1>Transforming Smiles with Expert Dental Care</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit velit,
-            sapien habitant integer senectus malesuada ac.
+            Our expert dental team is committed to providing you with the best
+            care for a brighter, healthier smile. Discover our services and
+            schedule your visit today!
           </p>
           <input
             type="submit"
@@ -141,7 +142,9 @@ const Home = () => {
               <h4>Contact Us</h4>
               <p>(+84)345-6789</p>
               <p>hoanh472001@gmail.com</p>
-              <Link to="/pricing">Book an Appointment</Link>
+              <div className="slider-booking-link">
+                <Link to="/pricing">Book an Appointment</Link>
+              </div>
             </div>
           </div>
           <div className="col-lg-4 home-booking-services">
@@ -227,15 +230,18 @@ const Home = () => {
             Our team has only one <br /> mission: Make you smile
           </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            <br /> Ut maecenas viverra at quis nibh. Tortor, quis aenean vitae,
-            <br />
-            enim, magna tortor. Sed vivamus porttitor tempus
+            At DentiGo, our mission is simple: to give you a healthy and
+            confident smile.
+            <br /> With advanced technology and a dedicated team, we provide
+            top-quality dental
+            <br /> care tailored to your needs. Trust us to take care of your
+            smile, because your
+            <br /> happiness starts with healthy teeth.
           </p>
           <div className="home-about-avatar">
             <img src={Avatar} width={70} height={60} />
             <div className="avatar-text">
-              <p>Dr. Huu Hoa</p>
+              <p>Dr. Andrew Moore</p>
               <h4>Dentist at Global Dentistry</h4>
             </div>
           </div>
@@ -254,10 +260,10 @@ const Home = () => {
             <br /> customers have to say
           </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
-            integer elit
-            <br /> cum sed etiam. Nisl arcu ipsum turpis quisque risus ultrices
-            eget.
+            At DentiGo, we take pride in delivering top-notch dental care. Here
+            is what some of
+            <br /> our happy patients have to say about their experience with
+            us.
           </p>
         </div>
         <div className="home-preview-swiper">
@@ -304,9 +310,9 @@ const Home = () => {
         <div className="resources-title">
           <h1>Our articles on dental health</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
-            integer elit <br />
-            cum sed etiam. Nisl arcu turpis quisque risus ultrices eget
+            Stay informed with expert tips and insights on dental care. Explore
+            our
+            <br /> latest articles to maintain a healthy, beautiful smile.
           </p>
         </div>
         <div className="resources-img">
@@ -315,10 +321,10 @@ const Home = () => {
             <div className="resources-text">
               <h3>4 things to consider before getting teeth braces</h3>
               <p>
-                Lorem ipsum dolor sit amet, lormol amenrtol consectetur
-                adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit
-                amet, lormol amenrtol consectetur adipiscing elit, sed do
-                eiusmod tempor{" "}
+                Before deciding on braces, you should learn about different
+                types of brackets, the treatment process, the expected duration,
+                and the estimated cost. Consulting with a dentist will help you
+                make the best choice.{" "}
               </p>
             </div>
             <div className="resources-date">
@@ -331,10 +337,10 @@ const Home = () => {
             <div className="resources-text">
               <h3>How often should I replace my toothbrush</h3>
               <p>
-                Lorem ipsum dolor sit amet, lormol amenrtol consectetur
-                adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit
-                amet, lormol amenrtol consectetur adipiscing elit, sed do
-                eiusmod tempor{" "}
+                You should replace your toothbrush every 3-4 months or sooner if
+                the bristles become frayed and worn out. A new toothbrush helps
+                remove plaque more effectively and protects your gums and teeth
+                from bacteria.{" "}
               </p>
             </div>
             <div className="resources-date">
@@ -347,10 +353,10 @@ const Home = () => {
             <div className="resources-text">
               <h3>6 great tips to keep your teeth healthy and safe</h3>
               <p>
-                Lorem ipsum dolor sit amet, lormol amenrtol consectetur
-                adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit
-                amet, lormol amenrtol consectetur adipiscing elit, sed do
-                eiusmod tempor{" "}
+                Brushing properly, using dental floss, limiting sugary foods,
+                having regular dental check-ups, drinking plenty of water, and
+                maintaining a healthy diet will keep your teeth strong and
+                healthy.{" "}
               </p>
             </div>
             <div className="resources-date">
@@ -365,8 +371,9 @@ const Home = () => {
           <div className="">
             <h1>Get in touch to book your first appointment</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              <br /> Tincidunt integer elit cum sed etiam nisl arcu
+              Schedule your visit today and take the first step toward a
+              healthier,
+              <br /> brighter smile. Our team is here to help!
             </p>
             <div className="contact-icon">
               <span>

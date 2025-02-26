@@ -15,42 +15,42 @@ const Services = () => {
       img: Comsmetic,
       title: "Cosmetic Dentistry",
       description:
-        "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit",
+        "Enhance your smile with our advanced cosmetic dentistry services, including teeth whitening, veneers, and smile makeovers.",
       another: "Learn More",
     },
     {
       img: Orthodontics,
       title: "Orthodontics",
       description:
-        "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit",
+        "Achieve a perfectly aligned smile with our expert orthodontic treatments, including braces and clear aligners tailored to your needs.",
       another: "Learn More",
     },
     {
       img: Hygiene,
       title: "Oral Hygiene",
       description:
-        "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit",
+        "Maintain optimal oral health with professional cleanings, preventive care, and personalized hygiene plans from our experienced dental team.",
       another: "Learn More",
     },
     {
       img: Treatment,
       title: "Dental Treatment",
       description:
-        "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit",
+        "Comprehensive dental care for all ages, including fillings, extractions, and restorative treatments to keep your smile healthy and pain-free.",
       another: "Learn More",
     },
     {
       img: Surgery,
       title: "Dental Surgery",
       description:
-        "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit",
+        "Professional dental surgery care to ensure a healthy and confident smile.",
       another: "Learn More",
     },
     {
       img: Implants,
       title: "Dental Implants",
       description:
-        "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit",
+        "Modern implant solutions for strong and natural-looking teeth.",
       another: "Learn More",
     },
   ];

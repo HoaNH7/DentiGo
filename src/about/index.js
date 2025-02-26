@@ -18,8 +18,9 @@ const About = () => {
           We are Dentalic, a dental <br /> clinic you can trust
         </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien{" "}
-          <br /> habitant integer senectus malesuada ac.
+          Providing expert dental care with a commitment to your comfort and
+          health.
+          <br /> Visit us for a brighter, healthier smile!
         </p>
         <div className="about-slider-img"></div>
       </div>
@@ -29,13 +30,10 @@ const About = () => {
             We started with only one goal: <br /> Make our clients smile
           </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Conequat
-            nunc parturient <br />
-            massa arcu, blandit. Morbi vulputate nulla in in. Viverra vel
-            bibendum felis ed eu. <br />
-            Gravida felis scelerisque massa vestibulum tellus ac justo.
-            Sollicitudin amet
-            <br /> suscipit elit viverra lectus.
+            Our mission is to provide top-quality dental care in a comfortable
+            and friendly environment.
+            <br /> Your smile is our priority, and we are dedicated to keeping
+            it healthy and bright.
           </p>
         </div>
         <div className="about-story-img">
@@ -56,8 +54,8 @@ const About = () => {
             <div className="content">
               <h3>Trust</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit velit,
-                sapien habitant integer sen.
+                We build strong relationships with our patients through honesty
+                and transparency.
               </p>
             </div>
           </div>
@@ -69,8 +67,8 @@ const About = () => {
             <div className="content">
               <h3>Responsability</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit velit,
-                sapien habitant integer sen.
+                We are committed to providing the best dental care with
+                professionalism and care.
               </p>
             </div>
           </div>
@@ -82,8 +80,8 @@ const About = () => {
             <div className="content">
               <h3>Care & Service</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit velit,
-                sapien habitant integer sen.
+                Your oral health is our priority, and we strive to offer
+                top-quality services.
               </p>
             </div>
           </div>
@@ -95,8 +93,8 @@ const About = () => {
             <div className="content">
               <h3>Commitment</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit velit,
-                sapien habitant integer sen.
+                LWe dedicate ourselves to ensuring every patient receives the
+                best possible treatment.
               </p>
             </div>
           </div>

@@ -96,52 +96,56 @@
                 text-align: left;
                 border-right: 2px solid #eeecec;
                 margin: 20px 0;
-                position: relative;
-
+                
                 svg {
                     margin-left: 10px;
                 }
-
+                
                 h4 {
                     font-size: 24px;
                     font-weight: bold;
                     margin-bottom: 15px;
                     color: #181443;
                 }
-
+                
                 p {
                     color: #807E98;
                     font-weight: normal;
                     margin-bottom: 15px;
                 }
+                
+                .slider-booking-link {
+                    position: relative;
+                    display: inline-block;
 
-                a {
-                    text-decoration: none;
-                    color: #807E98;
-                    transition: color 0.3s ease-in-out;
-                    font-size: 18px;
-                    font-weight: 700;
-
-                    &:hover {
-                        color: #5D4FFF;
+                    a {
+                        text-decoration: none;
+                        color: #807E98;
+                        transition: color 0.3s ease-in-out;
+                        font-size: 18px;
+                        font-weight: 700;
+    
+                        &:hover {
+                            color: #5D4FFF;
+                        }
+    
                     }
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        bottom: -5px;
+                        width: 0;
+                        height: 3px;
+                        background-color: #5D4FFF;
+                        transition: width 0.3s ease-in-out;
+                    }
+            
+                    &:hover::after {
+                        width: 100%;
+                    }
+                }
 
-                }
-                &::after {
-                    content: "";
-                    position: absolute;
-                    left: 0;
-                    bottom: -1px;
-                    width: 0;
-                    height: 3px;
-                    background-color: #5D4FFF;
-                    transition: width 0.3s ease-in-out;
-                }
-        
-                &:hover::after {
-                    margin-left: 26.5%;
-                    width: 35%;
-                }
                 
             }
 

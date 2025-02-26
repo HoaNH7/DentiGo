@@ -5,38 +5,38 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import { faCircleCheck, faTooth } from "@fortawesome/free-solid-svg-icons";
-import Doctor1 from "../image/doctor1.jpg";
-import Doctor2 from "../image/doctor2.jpg";
-import Doctor3 from "../image/doctor3.jpg";
-import Doctor4 from "../image/doctor4.jpg";
+import Customer1 from "../image/customer1.jpg";
+import Customer2 from "../image/customer2.jpg";
+import Customer3 from "../image/customer3.jpg";
+import Customer4 from "../image/customer4.jpg";
 
 const Pricing = () => {
   const navigate = useNavigate();
 
   const preview = [
     {
-      img: Doctor1,
+      img: Customer1,
       title: "William Saliba",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus massa felis in sedeol commodo. Augue morbi molestie",
+        "I had an amazing experience at DentiGo! The staff was friendly, and my treatment was painless. Highly recommended!",
     },
     {
-      img: Doctor2,
+      img: Customer2,
       title: "Sergio Mestre",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus massa felis in sedeol commodo. Augue morbi molestie",
+        "The best dental care I’ve ever received. The team made me feel comfortable, and the results exceeded my expectations!",
     },
     {
-      img: Doctor3,
+      img: Customer3,
       title: "Lucas Papaw",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus massa felis in sedeol commodo. Augue morbi molestie",
+        "Professional, caring, and efficient. I finally found a dentist I can trust. Thank you, DentiGo!",
     },
     {
-      img: Doctor4,
+      img: Customer4,
       title: "James Gunn",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus massa felis in sedeol commodo. Augue morbi molestie",
+        "The best dental care I've ever received! My teeth feel amazing, and the team was super friendly.",
     },
   ];
 
@@ -49,9 +49,10 @@ const Pricing = () => {
             plans <span>for everyone</span>
           </p>
           <h5>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu
-            cras
-            <br /> commodo necnunc, lacus suspendisse mi, imperdiet.
+            We believe that quality dental care should be accessible to all. Our
+            flexible and budget-friendly appointment
+            <br /> plans ensure that you receive top-notch dental services
+            without financial stress.
           </h5>
         </div>
         <div className="pricing-grid">
@@ -68,8 +69,8 @@ const Pricing = () => {
                 $99.00 <span>USD</span>
               </p>
               <h5>
-                Lorem ipsum dolor sit amet, proin eget consectetur adipiscing
-                elit.
+                Perfect for a single visit, ideal for routine check-ups and
+                cleanings.
               </h5>
             </div>
             <ul>
@@ -104,8 +105,8 @@ const Pricing = () => {
                 $199.00 <span>USD</span>
               </p>
               <h5>
-                Lorem ipsum dolor sit amet, proin eget consectetur adipiscing
-                elit.
+                Enjoy two appointments for thorough dental care and personalized
+                treatment.
               </h5>
             </div>
             <ul>
@@ -139,8 +140,8 @@ const Pricing = () => {
                 $399.00 <span>USD</span>
               </p>
               <h5>
-                Lorem ipsum dolor sit amet, proin eget consectetur adipiscing
-                elit.
+                A cost-effective plan covering four appointments for you and
+                your loved ones.
               </h5>
             </div>
             <ul>
@@ -169,10 +170,10 @@ const Pricing = () => {
               <br /> customers have to say
             </h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
-              integer elit
-              <br /> cum sed etiam. Nisl arcu ipsum turpis quisque risus
-              ultrices eget.
+              At DentiGo, we take pride in delivering top-notch dental care.
+              Here is what some of
+              <br /> our happy patients have to say about their experience with
+              us.
             </p>
           </div>
           <div className="pricing-customer-swiper">
@@ -200,6 +201,11 @@ const Pricing = () => {
               value="Book an Appointment"
               onClick={() => navigate("/pricing")}
             />
+          </div>
+        </div>
+        <div className="pricing-circle">
+          <div className="big-circle">
+            <div className="small-circle"></div>
           </div>
         </div>
       </div>

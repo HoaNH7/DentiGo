@@ -16,8 +16,8 @@ const Contact = () => {
           <div className="contact-title">
             <h1>Book your appointment</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-              Et luctus nisl volupal arcu nibh blandit
+              Easily schedule your dental appointment at your convenience.
+              <br /> Get expert care and a healthy smile with just a few clicks!
             </p>
           </div>
           <div className="contact-info">
@@ -118,8 +118,9 @@ const Contact = () => {
         <div className="faq-title">
           <h1>Frequently Asked Questions</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-            Et luctus nisl volupal arcu nibh blandit
+            Find answers to common questions about our dental services,
+            appointment process, and pricing.
+            <br /> Need more help? Contact us anytime!
           </p>
         </div>
         <div className="faq-content">
