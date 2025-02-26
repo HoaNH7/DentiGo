@@ -8,14 +8,14 @@
         display: flex;
         margin-bottom: 300px;
         position: relative;
-        // padding-top: 114px;
+        padding-top: 114px;
 
         .home-slider-text {
             margin-left: 100px;
             margin-top: 120px;
             
             h1 {
-                font-size: 60px;
+                font-size: 52px;
                 margin-right: 80px;
                 margin-bottom: 20px;
                 color: #181443;
@@ -480,6 +480,7 @@
         display: flex;
         background-color: #5D4FFF;
         border-radius: 40px;
+        margin: 0 100px;
         margin-bottom: 150px;
 
         .schedule-text {
