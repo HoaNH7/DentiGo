@@ -113,6 +113,11 @@ const Contact = () => {
             <input className="btn-contact" type="submit" value="Submit" />
           </div>
         </div>
+        <div className="pricing-circle-contact">
+          <div className="big-circle">
+            <div className="small-circle"></div>
+          </div>
+        </div>
       </div>
       <div className="contact-faq">
         <div className="faq-title">

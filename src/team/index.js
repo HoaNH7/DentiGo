@@ -73,10 +73,10 @@ const Team = () => {
               size="1x"
             />
           </div>
-        </div>
-        <div className="team-circle">
-          <div className="big-circle">
-            <div className="small-circle"></div>
+          <div className="team-circle">
+            <div className="big-circle">
+              <div className="small-circle"></div>
+            </div>
           </div>
         </div>
       </div>

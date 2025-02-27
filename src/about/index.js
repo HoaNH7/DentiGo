@@ -14,17 +14,35 @@ const About = () => {
   return (
     <div className="container">
       <div className="about-slider">
-        <h1>
-          We are Dentalic, a dental <br /> clinic you can trust
-        </h1>
-        <p>
-          Providing expert dental care with a commitment to your comfort and
-          health.
-          <br /> Visit us for a brighter, healthier smile!
-        </p>
-        <div className="about-slider-img"></div>
+        <div className="about-slider-content">
+          <h1>
+            We are Dentalic, a dental <br /> clinic you can trust
+          </h1>
+          <p>
+            Providing expert dental care with a commitment to your comfort and
+            health.
+            <br /> Visit us for a brighter, healthier smile!
+          </p>
+          <div className="about-slider-img">
+            <div className="pricing-circle-slider">
+              <div className="big-circle">
+                <div className="small-circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="about-story">
+        <div className="pricing-circle-story1">
+          <div className="big-circle">
+            <div className="small-circle"></div>
+          </div>
+        </div>
+        <div className="pricing-circle-story2">
+          <div className="big-circle">
+            <div className="small-circle"></div>
+          </div>
+        </div>
         <div className="about-story-title">
           <h1>
             We started with only one goal: <br /> Make our clients smile
@@ -42,6 +60,16 @@ const About = () => {
         </div>
       </div>
       <div className="about-values">
+        <div className="pricing-circle-values1">
+          <div className="big-circle">
+            <div className="small-circle"></div>
+          </div>
+        </div>
+        <div className="pricing-circle-values2">
+          <div className="big-circle">
+            <div className="small-circle"></div>
+          </div>
+        </div>
         <h1>
           The core values that drive <br />
           everything what we do
@@ -113,6 +141,16 @@ const About = () => {
         </div>
       </div>
       <div className="about-team">
+        <div className="pricing-circle-team1">
+          <div className="big-circle">
+            <div className="small-circle"></div>
+          </div>
+        </div>
+        <div className="pricing-circle-team2">
+          <div className="big-circle">
+            <div className="small-circle"></div>
+          </div>
+        </div>
         <h1>
           Our amazing team of dentists <br />
           ready to serve you

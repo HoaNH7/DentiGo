@@ -162,6 +162,11 @@ const Pricing = () => {
             </ul>
             <input type="submit" value="Book Now" />
           </div>
+          <div className="pricing-circle">
+            <div className="big-circle">
+              <div className="small-circle"></div>
+            </div>
+          </div>
         </div>
         <div className="pricing-customer">
           <div className="pricing-customer-text">
@@ -202,10 +207,15 @@ const Pricing = () => {
               onClick={() => navigate("/pricing")}
             />
           </div>
-        </div>
-        <div className="pricing-circle">
-          <div className="big-circle">
-            <div className="small-circle"></div>
+          <div className="pricing-circle-customer1">
+            <div className="big-circle">
+              <div className="small-circle"></div>
+            </div>
+          </div>
+          <div className="pricing-circle-customer2">
+            <div className="big-circle">
+              <div className="small-circle"></div>
+            </div>
           </div>
         </div>
       </div>

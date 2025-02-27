@@ -42,7 +42,9 @@
                 border: 1px solid #F6F4FB;
                 border-radius: 12px;
                 box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-                // background-color: white;
+                background-color: white;
+                position: relative;
+                overflow: hidden;
     
                 .standard-title {
                     display: flex;
@@ -133,11 +135,39 @@
                     box-shadow: 0 4px 15px #4a3aff99;
                 }
             }
+
+            .pricing-circle {
+                top: 250px;
+                right: -150px;
+                position: absolute;
+                z-index: -10; 
+                transform: translateZ(-1px);
+    
+                .big-circle {
+                    width: 350px;
+                    height: 350px;
+                    border-radius: 50%;
+                    background-color: #F6F5FE;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center; 
+                    
+                    .small-circle {
+                        width: 250px;
+                        height: 250px;
+                        border-radius: 50%;
+                        background-color: #ffffff;
+                        position: absolute;
+                    }
+                }
+            }
         }
     
         .pricing-customer {
             margin: 0 100px;
             margin-top: 100px;
+            position: relative;
     
             .pricing-customer-text {
                 display: flex;
@@ -223,34 +253,63 @@
                     }
                   }
                 }
+
+                .pricing-circle-customer1 {
+                    top: 100px;
+                    right: -50px;
+                    position: absolute;
+                    z-index: -10; 
+                    transform: translateZ(-1px);
+        
+                    .big-circle {
+                        width: 200px;
+                        height: 200px;
+                        border-radius: 50%;
+                        background-color: #E2DEFC;
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center; 
+                        
+                        .small-circle {
+                            width: 100px;
+                            height: 100px;
+                            border-radius: 50%;
+                            background-color: #ffffff;
+                            position: absolute;
+                        }
+                    }
+                }
+
+                .pricing-circle-customer2 {
+                    top: 300px;
+                    left: -250px;
+                    position: absolute;
+                    z-index: -10; 
+                    transform: translateZ(-1px);
+        
+                    .big-circle {
+                        width: 300px;
+                        height: 300px;
+                        border-radius: 50%;
+                        background-color: #E2DEFC;
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center; 
+                        
+                        .small-circle {
+                            width: 200px;
+                            height: 200px;
+                            border-radius: 50%;
+                            background-color: #ffffff;
+                            position: absolute;
+                        }
+                    }
+                }
                 
             }
 
-            // .pricing-circle {
-            //     top: 250px;
-            //     right: -150px;
-            //     position: absolute;
-            //     z-index: -10; 
-            //     transform: translateZ(-1px);
-    
-            //     .big-circle {
-            //         width: 350px;
-            //         height: 350px;
-            //         border-radius: 50%;
-            //         background-color: #F6F5FE;
-            //         position: relative;
-            //         display: flex;
-            //         align-items: center;
-            //         justify-content: center; 
-                    
-            //         .small-circle {
-            //             width: 250px;
-            //             height: 250px;
-            //             border-radius: 50%;
-            //             background-color: #ffffff;
-            //             position: absolute;
-            //         }
-            //     }
-            // }
+            
     }
 }

@@ -61,9 +61,11 @@ const Services = () => {
           <h1>Our Services</h1>
           <div className="services-content-btn">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit velit,{" "}
-              <br />
-              sapien habitant integer senectus malesuada ac.
+              At DentiGo, we provide a wide range of high-quality dental
+              services to ensure your smile
+              <br /> stays healthy and bright. Our expert team is committed to
+              delivering personalized care
+              <br /> tailored to your needs.
             </p>
             <input type="submit" value="Book an Appointment" />
           </div>
@@ -79,10 +81,30 @@ const Services = () => {
               </div>
             </div>
           ))}
+          <div className="services-circle1">
+            <div className="big-circle">
+              <div className="small-circle"></div>
+            </div>
+          </div>
+          <div className="services-circle2">
+            <div className="big-circle">
+              <div className="small-circle"></div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="services-schedule">
-        <div className="col-lg-6">
+        <div className="col-lg-6 schedule-title">
+          <div className="schedule-circle1">
+            <div className="big-circle">
+              <div className="small-circle"></div>
+            </div>
+          </div>
+          <div className="schedule-circle2">
+            <div className="big-circle">
+              <div className="small-circle"></div>
+            </div>
+          </div>
           <div className="schedule-text">
             <h1>Schedule a virtual or presential Appointment today</h1>
             <input type="submit" value="Book an Appointment" />

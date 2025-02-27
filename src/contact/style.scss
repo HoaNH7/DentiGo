@@ -7,6 +7,7 @@
         margin: 100px;
         margin-bottom: 200px;
         padding-top: 114px;
+        position: relative;
 
         .contact-left {
     
@@ -137,6 +138,7 @@
             }
     
             .contact-form {
+                background-color: white;
                 height: 500px;
                 border: 1px solid #eeecec;
                 border-radius: 30px;
@@ -167,6 +169,33 @@
                         transform: translate3d(0, -4px, .01px);
                         box-shadow: 0 4px 15px #4a3aff99;
                     }
+                }
+            }
+        }
+
+        .pricing-circle-contact {
+            top: -5%;
+            left: 50%;
+            position: absolute;
+            z-index: -10; 
+            transform: translate(-50%, -5%);
+
+            .big-circle {
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                background-color: #F6F5FE;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                
+                .small-circle {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                    background-color: #ffffff;
+                    position: absolute;
                 }
             }
         }

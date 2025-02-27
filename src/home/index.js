@@ -106,6 +106,11 @@ const Home = () => {
   return (
     <div className="container">
       <div className="home-slider">
+        <div className="pricing-circle-home-slider">
+          <div className="big-circle">
+            <div className="small-circle"></div>
+          </div>
+        </div>
         <div className=" home-slider-text" style={{ width: "50%" }}>
           <h1>Transforming Smiles with Expert Dental Care</h1>
           <p>
@@ -221,6 +226,16 @@ const Home = () => {
         </div>
       </div>
       <div className="home-about">
+        <div className="pricing-circle-home-about1">
+          <div className="big-circle">
+            <div className="small-circle"></div>
+          </div>
+        </div>
+        <div className="pricing-circle-home-about2">
+          <div className="big-circle">
+            <div className="small-circle"></div>
+          </div>
+        </div>
         <div className="col-lg-6 home-about-img">
           <div className="about-img-big"></div>
           <div className="about-img-small"></div>
@@ -254,6 +269,16 @@ const Home = () => {
         </div>
       </div>
       <div className="home-preview">
+        <div className="pricing-circle-home-preview1">
+          <div className="big-circle">
+            <div className="small-circle"></div>
+          </div>
+        </div>
+        <div className="pricing-circle-home-preview2">
+          <div className="big-circle">
+            <div className="small-circle"></div>
+          </div>
+        </div>
         <div className="home-preview-text">
           <h1>
             See what our over 1,000 happy
@@ -294,7 +319,17 @@ const Home = () => {
         </div>
       </div>
       <div className="home-schedule">
-        <div className="col-lg-6">
+        <div className="col-lg-6 home-schedule-title">
+          <div className="pricing-circle-home-schedule1">
+            <div className="big-circle">
+              <div className="small-circle"></div>
+            </div>
+          </div>
+          <div className="pricing-circle-home-schedule2">
+            <div className="big-circle">
+              <div className="small-circle"></div>
+            </div>
+          </div>
           <div className="schedule-text">
             <h1>Schedule a virtual or presential Appointment today</h1>
             <input
@@ -307,6 +342,16 @@ const Home = () => {
         <div className="col-lg-6 img-schedule"></div>
       </div>
       <div className="home-resources">
+        <div className="pricing-circle-resource1">
+          <div className="big-circle">
+            <div className="small-circle"></div>
+          </div>
+        </div>
+        <div className="pricing-circle-resource2">
+          <div className="big-circle">
+            <div className="small-circle"></div>
+          </div>
+        </div>
         <div className="resources-title">
           <h1>Our articles on dental health</h1>
           <p>

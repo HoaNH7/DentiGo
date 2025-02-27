@@ -8,6 +8,7 @@
         background-color: #fafafa;
         position: relative;
         overflow: hidden;
+        z-index: -10;
 
         h1 {
             margin-bottom: 20px;
@@ -33,6 +34,7 @@
             max-width: 1200px; 
             margin: 0 auto; 
             padding: 20px 0;
+            position: relative;
 
             .grid-image {
                 width: 25%; 
@@ -123,31 +125,32 @@
                     border-radius: 50%;
                 }
             }
-        }
-        .team-circle {
-            position: absolute;
-            bottom: 100px;
-            right: -150px;
-            .big-circle {
-                width: 270px;
-                height: 270px;
-                border-radius: 50%;
-                background-color: #F6F5FE;
-                position: relative;
-                display: flex;
-                align-items: center;
-                justify-content: center; 
-                
-                .small-circle {
-                    width: 150px;
-                    height: 150px;
+
+            .team-circle {
+                position: absolute;
+                bottom: 100px;
+                right: -200px;
+                z-index: -1;
+
+                .big-circle {
+                    width: 270px;
+                    height: 270px;
                     border-radius: 50%;
-                    background-color: #ffffff;
-                    position: absolute;
+                    background-color: #F6F5FE;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center; 
+                    
+                    .small-circle {
+                        width: 150px;
+                        height: 150px;
+                        border-radius: 50%;
+                        background-color: #ffffff;
+                        position: absolute;
+                    }
                 }
             }
         }
-
-        
     }
 }

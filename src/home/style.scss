@@ -10,6 +10,33 @@
         position: relative;
         padding-top: 114px;
 
+        .pricing-circle-home-slider {
+            top: 0;
+            left: 35%;
+            position: absolute;
+            z-index: -10; 
+            transform: translate(0, 50%);
+    
+            .big-circle {
+                width: 350px;
+                height: 350px;
+                border-radius: 50%;
+                background-color: #F6F5FE;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                
+                .small-circle {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                    background-color: #ffffff;
+                    position: absolute;
+                }
+            }
+        }
+
         .home-slider-text {
             margin-left: 100px;
             margin-top: 120px;
@@ -296,9 +323,63 @@
     }
 
     .home-about {
-        
         display: flex;
         background-color: #faf9fc;
+        position: relative;
+
+        .pricing-circle-home-about1 {
+            bottom: 200px;
+            left: -30px;
+            position: absolute;
+            // z-index: -10; 
+            transform: translateZ(-1px);
+    
+            .big-circle {
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                background-color: #EDEBFC;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                
+                .small-circle {
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    background-color: #ffffff;
+                    position: absolute;
+                }
+            }
+        }
+
+        .pricing-circle-home-about2 {
+            bottom: 200px;
+            right: -100px;
+            position: absolute;
+            // z-index: -10; 
+            transform: translateZ(-1px);
+    
+            .big-circle {
+                width: 400px;
+                height: 400px;
+                border-radius: 50%;
+                background-color: #EDEBFC;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                
+                .small-circle {
+                    width: 250px;
+                    height: 250px;
+                    border-radius: 50%;
+                    background-color: #ffffff;
+                    position: absolute;
+                }
+            }
+        }
         
         .home-about-img {
             position: relative;
@@ -392,28 +473,84 @@
     }
 
     .home-preview {
-        margin: 0 100px;
         margin-top: 100px;
+        position: relative;
 
+        .pricing-circle-home-preview1 {
+            bottom: 200px;
+            left: -100px;
+            position: absolute;
+            // z-index: -10; 
+            transform: translateZ(-1px);
+    
+            .big-circle {
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                background-color: #EDEBFC;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                
+                .small-circle {
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    background-color: #ffffff;
+                    position: absolute;
+                }
+            }
+        }
+
+        .pricing-circle-home-preview2 {
+            top: 50px;
+            right: -150px;
+            position: absolute;
+            // z-index: -10; 
+            transform: translateZ(-1px);
+    
+            .big-circle {
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                background-color: #EDEBFC;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                
+                .small-circle {
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    background-color: #ffffff;
+                    position: absolute;
+                }
+            }
+        }
+        
         .home-preview-text {
             display: flex;
             justify-content: center;
             text-align: center;
             flex-direction: column;
-
+            
             h1 {
                 font-size: 40px;
                 margin: 20px 0;
             }
-
+            
             p {
                 color: #807E98;
                 margin-bottom: 20px;
             }
         }
-
+        
         .home-preview-swiper {
+            margin: 0 100px;
             margin-bottom: 150px;
+
             .preview-border {
                 position: relative;
                 width: 90%;
@@ -486,32 +623,90 @@
         border-radius: 40px;
         margin: 0 100px;
         margin-bottom: 150px;
+        
+        .home-schedule-title {
+            position: relative;
+            overflow: hidden;
 
-        .schedule-text {
-            margin-left: 150px;
-            margin-top: 150px;
-
-            h1 {
-                color: white;
-                font-size: 40px;
-                margin-bottom: 40px;
+            .pricing-circle-home-schedule1 {
+                position: absolute;
+                top: -150px;
+                left: -100px;
+    
+                .big-circle {
+                    width: 400px;
+                    height: 400px;
+                    border-radius: 50%;
+                    background-color: rgba(216, 214, 233, 0.5);
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center; 
+                    
+                    .small-circle {
+                        width: 250px;
+                        z-index: 1;
+                        height: 250px;
+                        border-radius: 50%;
+                        background-color: #5D4FFF;
+                        position: absolute;
+                    }
+                }
             }
 
-            input {
-                background-color: white;
-                width: 35%;
-                height: 70px;
-                border: none;
-                border-radius: 12px;
-                color: #5D4FFF;
-                font-size: 16px;
-                font-weight: 600;
-                cursor: pointer;
-                transition: transform 0.3s ease-in-out;
+            .pricing-circle-home-schedule2 {
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                transform: translate(30%, 50%);
+    
+                .big-circle {
+                    width: 400px;
+                    height: 400px;
+                    border-radius: 50%;
+                    background-color: rgba(216, 214, 233, 0.5);
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center; 
+                    
+                    .small-circle {
+                        width: 250px;
+                        z-index: 1;
+                        height: 250px;
+                        border-radius: 50%;
+                        background-color: #5D4FFF;
+                        position: absolute;
+                    }
+                }
+            }
 
-                &:hover {
-                    transform: translate3d(0, -4px, .01px);
-                    box-shadow: 0 5px 17px #373088c7;
+            .schedule-text {
+                margin-left: 150px;
+                margin-top: 150px;
+    
+                h1 {
+                    color: white;
+                    font-size: 40px;
+                    margin-bottom: 40px;
+                }
+    
+                input {
+                    background-color: white;
+                    width: 35%;
+                    height: 70px;
+                    border: none;
+                    border-radius: 12px;
+                    color: #5D4FFF;
+                    font-size: 16px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    transition: transform 0.3s ease-in-out;
+    
+                    &:hover {
+                        transform: translate3d(0, -4px, .01px);
+                        box-shadow: 0 5px 17px #373088c7;
+                    }
                 }
             }
         }
@@ -526,11 +721,67 @@
             border-top-right-radius: 40px;
             border-bottom-right-radius: 40px;
         }
+
     }
 
     .home-resources {
         margin: 0 100px;
         margin-bottom: 200px;
+        position: relative;
+
+        .pricing-circle-resource1 {
+            bottom: 50px;
+            left: -200px;
+            position: absolute;
+            z-index: -10; 
+            transform: translateZ(-1px);
+    
+            .big-circle {
+                width: 350px;
+                height: 350px;
+                border-radius: 50%;
+                background-color: #EDEBFC;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                
+                .small-circle {
+                    width: 250px;
+                    height: 250px;
+                    border-radius: 50%;
+                    background-color: #ffffff;
+                    position: absolute;
+                }
+            }
+        }
+
+        .pricing-circle-resource2 {
+            top: 50px;
+            right: -200px;
+            position: absolute;
+            z-index: -10; 
+            transform: translateZ(-1px);
+    
+            .big-circle {
+                width: 350px;
+                height: 350px;
+                border-radius: 50%;
+                background-color: #EDEBFC;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                
+                .small-circle {
+                    width: 250px;
+                    height: 250px;
+                    border-radius: 50%;
+                    background-color: #ffffff;
+                    position: absolute;
+                }
+            }
+        }
 
         .resources-title {
             display: flex;
